@@ -34,7 +34,7 @@ def clean(list_words):
     stop_words = stopwords.words('english')
     result = []
     
-    result = [w.lower() for w in list_words if w not in punctuation]
+    result = [w.lower() for w in list_words if w not in punctuation + '’`–']
     result = [w for w in result if w not in stop_words]
     
     return result
