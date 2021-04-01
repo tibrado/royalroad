@@ -99,3 +99,9 @@ def word_freq(list_words):
         Dictionary 
     """
     return nltk.FreqDist(list_words)
+
+# Prepair text 
+def prep_text(text):
+    words = tokenize(text)
+    words = clean(words)
+    return stem_lem(words)
