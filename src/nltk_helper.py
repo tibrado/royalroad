@@ -23,6 +23,33 @@ def tokenize(document, sentence = False):
     
     return word_tokenize(document)
 
+# valid english characters 
+def valid_word(word):
+    '''
+    param: lower case string
+    return: True if word else False if number.. None if either
+    '''
+    alphabets = 'abcdefghijklmnopqrstuvwxyz'
+    numbers = '0123456789'
+    alpha = True
+    
+    # Assume word is alphaets 
+    if word[0] in alphabets: pass
+    elif word[0] in numbers: alpha = False
+    else: return None
+    
+    
+    for letter in word:
+        # If alpha bets 
+        if alpha:
+            if letter not in alphabets:
+                return None
+        else:
+            if letter not in numbers:
+                return None
+    
+    return alpha
+
 def clean(list_words):
     """
     param: 
@@ -34,7 +61,16 @@ def clean(list_words):
     stop_words = stopwords.words('english')
     result = []
     
-    result = [w.lower() for w in list_words if w not in punctuation + '’`–']
+    # Lower all letters and check if they are valid 
+    for word in list_words:
+        word = word.lower()      #  make lower
+        valid = valid_word(word) # check if word or number
+        
+        if valid != None: 
+            if valid: result.append(word)
+            else: result.append('numeric-word')
+    
+    # remove stop words 
     result = [w for w in result if w not in stop_words]
     
     return result
