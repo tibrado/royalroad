@@ -36,7 +36,7 @@ Rating |
 </details display="none">
 <br />
 
-*Refrence [Slides Show](https://www.google.com/) for EDA and Perprocessing steps*
+*Refrence [Slides Show](pp/Presentation.pptx) for EDA and Perprocessing steps*
 
 **Machine Learning Models**
 
@@ -71,8 +71,6 @@ F1-Score: **79%**
 
 **Conclusion**
 
-It is possible for an algorithm to rate a novel simply by its' content. Spicifcally for Royal Road the key concepts that users look for in a novel is as follows:
-
-
+It is possible for an algorithm to rate a novel simply by its' content. Specifcally for Royal Road the key genres that are highly rated are: LitRPG and Transformation.
 
 ---
