@@ -6,7 +6,7 @@
 
 <details>
 
- <summary><b>What is Royal Road?</b></summary>
+ <summary>What is Royal Road?</summary>
 
  > [Royal Road®](https://www.royalroad.com/home) is the home of web novels and fan fiction! In their amazing community, you can find various talented individuals who write as a hobby or even professionally, artists who create art for them, and many, many readers who provide valuable feedback and encouragement.
 
@@ -23,7 +23,7 @@ This project aims to determine the rating of a novel based on its content, i.e.,
 
 <details>
 
-<summary> All data was acquired from Royal Road's ongoing fiction novels pages on March 29, 2021. The following was collected:
+<summary> All data was acquired from Royal Road's ongoing fiction novel pages on March 29, 2021. The following was collected:
 </summary>
 
 Total Collected :|2719|  |       |
@@ -36,13 +36,13 @@ Rating |
 </details display="none">
 <br />
 
-*Refrence [Slides Show](https://www.google.com/) for **EDA** and **Perprocessing** steps*
+*Refrence [Slides Show](https://www.google.com/) for EDA and Perprocessing steps*
 
 **Machine Learning Models**
 
 <div align="center">
 <details open>
-<summary><b>Random Forest Regressor</b></summary>
+<summary><i>Random Forest Regressor</i></summary>
 
 R-Squared: **51%**
 
@@ -57,7 +57,7 @@ R-Squared: **51%**
 
 <div align="center">
 <details open>
-<summary><b>Random Forest Classifier</b></summary>
+<summary><i>Random Forest Classifier</i></summary>
 
 F1-Score: **79%**
 
@@ -69,3 +69,10 @@ F1-Score: **79%**
 </details>
 </div>
 
+**Conclusion**
+
+It is possible for an algorithm to rate a novel simply by its' content. Spicifcally for Royal Road the key concepts that users look for in a novel is as follows:
+
+
+
+---
