@@ -17,9 +17,16 @@
 
 This project aims to determine the rating of a novel based on its content, i.e., first five chapters, novel summary, and novel genre tags. The goal is to generate a user rating for [Royal Road's ongoing fiction novels](https://www.royalroad.com/fictions/active-popular). Essentially we are trying to answer the following question:
 
-<div align="center" style="background-color:DodgerBlue"> <b> Can an algorithm rate a novel? </b> </div>
+<div align="center"> <b> Can an algorithm rate a novel? </b> </div>
 
+**Data**
 
+All data was acquired from [Royal Road's ongoing fiction novels](https://www.royalroad.com/fictions/active-popular) pages. The following was collected:
 
-
+|Total Collected :|2719|        |       |
+|:---------:|:-------:|:---------:|:------------:|
+|Titles| Genres|Followers|Number of Pages|
+|Number of Chapters|Chapter 1 | Chapter 2| Chapter 3|
+|Chapter 4 | Chapter 5| Date Last Updated| Number of Views|
+|Rating |
 
