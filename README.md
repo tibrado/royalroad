@@ -21,12 +21,16 @@ This project aims to determine the rating of a novel based on its content, i.e.,
 
 **Data**
 
-All data was acquired from [Royal Road's ongoing fiction novels](https://www.royalroad.com/fictions/active-popular) pages. The following was collected:
+<details>
 
-|Total Collected :|2719|        |       |
-|:---------:|:-------:|:---------:|:------------:|
-|Titles| Genres|Followers|Number of Pages|
-|Number of Chapters|Chapter 1 | Chapter 2| Chapter 3|
-|Chapter 4 | Chapter 5| Date Last Updated| Number of Views|
-|Rating |
+<summary> All data was acquired from Royal Road's ongoing fiction novels pages. The following was collected:
+</summary>
 
+Total Collected :|2719|        |       |
+:---------:|:-------:|:---------:|:------------:|
+Titles| Genres|Followers|Number of Pages|
+Number of Chapters|Chapter 1 | Chapter 2| Chapter 3|
+Chapter 4 | Chapter 5| Date Last Updated| Number of Views|
+Rating |
+
+</details>
